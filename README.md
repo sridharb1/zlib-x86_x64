@@ -20,7 +20,7 @@ CRT for both Debug/Release.
 # Installation/Usage #
   * git clone [zlib, tested w/ v1.2.11](https://github.com/madler/zlib.git). I switch the tree to the v1.2.11 tag afterward.
   * git clone [zlib-x86_x64](https://github.com/sridharb1/zlib-x86_x64) into another folder.
-  * Copy the contents of this folder into the contrib/vstudio folder
-    of the zlib repository. Thus, the vc14 folder of zlib-x86_x64
+  * Copy the contents of this folder into the contrib folder
+    of the zlib repository. Thus, the contrib/vc14 folder of zlib-x86_x64
     should overwrite the same in zlib.
   * Use zlibvc.sln to compile.
