@@ -317,6 +317,7 @@ bld_ml32.bat</Command>
       <SubSystem>Windows</SubSystem>
       <TargetMachine>MachineX64</TargetMachine>
       <ModuleDefinitionFile>$(ProjectName).def</ModuleDefinitionFile>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
     <PreBuildEvent>
       <Command>cd ..\..\masmx64
@@ -404,6 +405,7 @@ bld_ml64.bat</Command>
       <SubSystem>Windows</SubSystem>
       <TargetMachine>MachineX64</TargetMachine>
       <ModuleDefinitionFile>$(ProjectName).def</ModuleDefinitionFile>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
     <PreBuildEvent>
       <Command>cd ..\..\masmx64

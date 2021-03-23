@@ -225,6 +225,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>..\..\masmx64\gvmat64.obj;..\..\masmx64\inffasx64.obj;</AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWithoutAsm|x64'">
@@ -251,6 +252,7 @@
     <Link>
       <AdditionalDependencies>
       </AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
